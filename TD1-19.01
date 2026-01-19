@@ -47,3 +47,42 @@ Déclarer du char = un octet donc en langage machine
 
 
 quit pour quitter le terminal
+
+xxd ...    affiche fichier octet etc
+
+
+c++ et ++c question de affichage avant ou après incrémentation
+
+------------------------
+------------------------
+------------------------
+------------------------
+------------------------
+
+char <= 8bits
+unsigned char <=
+
+short <= 16bits            tous signé
+
+int <= 32bits
+
+long <= 64bits
+
+#include     dire au compil, tout ce qui ya la, tu fais comme si ct écrit ici en gros ça recopie
+
+pas de booléen en C  ----> convention 0 faux le reste est vrai
+
+
+
+autre version du gdb le ddd
+
+
+
+
+Mise en place des fonctions je peux la mettre après son utilisation mais je dois mettre sa signature avant
+
+bt backtrace pour voir la pile (prblm de récursion etc)
+
+
+float 32bits
+double 64bits
