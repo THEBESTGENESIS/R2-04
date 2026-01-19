@@ -86,3 +86,29 @@ bt backtrace pour voir la pile (prblm de récursion etc)
 
 float 32bits
 double 64bits
+
+-----------------------------------------------
+
+
+Faire Bcp d'assertion 
+
+assert(x > 1);
+Quand je lance la compil l'assert me donne les errurs
+
+#include <assert.h>        au début du code pour l'utiliser
+
+
+
+Pour arreter les vérif 
+-D NDEBUG acant le -Wall   dans la commande du débug
+
+
+
+
+--------------------------------------------------
+
+Booleéen 
+
+if (c == 1){
+}
+  else
