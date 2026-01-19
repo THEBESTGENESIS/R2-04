@@ -1,0 +1,49 @@
+gcc -Wall -g ... -o type
+ls -l
+
+Wall == warning all
+-g on met tout le temps -> on met dans le code des info pour le débugeur
+
+strip enleve le max d'info pour déduire le code C initial (on compacte les trucs)
+
+
+
+gdb ./type     c'est le débugeur
+
+
+
+
+------------------------
+------------------------
+------------------------
+regarder tuto gcc et gdb
+Apprendre par coeur commandes debugueur
+------------------------
+------------------------
+------------------------
+
+
+layout src
+
+Faire points d'arret : breakpoint = b numero de ligne ou nom de fonction
+
+
+run ou r 
+
+BreakPoint = on s'arrete 
+
+On peux print une variable ex : c        $1 = 0 '\000'
+
+Avancer d'un cran en C ou en machine     step ou stepi ou s
+
+
+Changer layout : layout asm (code machine)
+
+
+Déclarer du char = un octet donc en langage machine 
+
+
+4 facons d'écrire charac : Ascii, en '', en décimal, en octal
+
+
+quit pour quitter le terminal
