@@ -1,1 +1,41 @@
 21/01
+
+
+cp ~colnet5/R2-04/types_simples.c R2-04
+char* pc   *pour faire un pointeur
+
+pc = &gc       &nomVariable dis que pc est lié a gc
+écrire a une adresse *nomVariable
+
+
+
+donc exemple : 
+int main(){
+  char c;
+  long l;
+  char* pc;
+
+  //Avec adresse d'une variable
+  pc = &c;
+  
+  //pour écrire à une adresse
+  *pc = 3;
+  pc = &gc;
+
+  //Pour lire une adresse
+  c = *pc;
+
+
+
+ici c sera égal a gc a travers *pc
+
+
+
+n = next donc direct après fonction
+s = step rentre dans fonction
+
+
+on peut faire affectations de 2 pointeur l'un a l'un 
+
+#include <stdlib.h>
+
