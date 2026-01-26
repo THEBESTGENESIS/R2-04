@@ -1,0 +1,71 @@
+3eme séance sur les structures et size off
+
+A faire ----------> Tableaux car non vu
+
+
+malloc et free
+
+-------------------------------------------------------------------------------------------
+#include <stdlib.h>
+
+
+char gc = 4;
+
+
+void incrementer(char* p) {
+  //Augmenter de 1
+  *p = *p+1;
+}
+
+
+
+int main(){
+  int c;
+  int* pc;
+  char* pchar;
+
+  
+  pc = &c;
+  pc = pc + 1;
+
+
+  // Exemple de CAST;
+  pchar = ((char*)pc);
+
+  // Allocation 32 octets dans le tas (heap)
+  pchar = malloc(32);
+
+
+  // Ecrire sur le premier
+  *pchar = 'A';
+  *(pchar+1) = 'B';
+  *(pchar+2) = 'C';
+  *(pchar+3) = '\0';
+
+  // Aucun controle de sortie de la zone ddd
+
+  *((int*)pchar) = 2;
+
+
+  // POur rendre free(pchar)
+  
+  // Erreur
+  *pchar = 1;
+}
+
+----------------------------------------------------------------------------------------
+
+
+Structure
+
+
+Mot clé : 
+
+struct ... {
+  //// On regroupe des valeurs (en mode valeurs compisites)
+  char nom[25]
+  etc....
+}
+d
+ddddtye
+
